@@ -3,6 +3,19 @@ th,
 tr,
 td {
   border: 1px solid black;
-  text-align: center;
   background-color: yellow;
+}
+
+table {
+    border-style: outset;
+}
+
+th,
+tr,
+td {
+  border-style: inset;
+}
+
+td {
+  font-weight: bold;
 }
